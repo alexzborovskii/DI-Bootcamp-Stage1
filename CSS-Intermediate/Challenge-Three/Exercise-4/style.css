@@ -1,0 +1,44 @@
+body{
+width: 90%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+header{
+    display: block;
+    max-width: 680px;
+    background: green;
+    height: 100px;
+    border: solid black 1px;
+    margin: 40px 20px 20px 20px;
+}
+
+.pic, .square{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.pic:hover, .square:hover{
+    transform:scale(1.1);
+
+}
+
+.square{
+    border: solid black 1px;
+}
+
+
+.square1{
+    background-color: orange;
+}
+.square2{
+    background-color: red;
+}
+.square3{
+    background-color: lightblue;
+}

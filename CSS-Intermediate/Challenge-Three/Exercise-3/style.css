@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 90%;
+    margin-top: 3%;
+}
+
+header, .square, .pic{
+    display: inline-block;
+    border: solid black 2px;
+    margin: 1%;
+}
+
+header{
+    background-color: blueviolet;
+    height: 100px;
+    width: 95%;
+}
+.square, .pic{
+    height: 200px;
+    width: 200px;
+}
+
+.pic{
+   
+}
+
+.square1{
+    background-color: red
+}
+.square2{
+    background-color: green;
+}
+.square3{
+    background-color: orange;
+}
