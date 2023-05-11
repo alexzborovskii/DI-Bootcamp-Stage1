@@ -1,0 +1,27 @@
+body{
+    background-color: #364371;
+}
+
+
+#wrap{
+    display: inline-block;
+    max-width: 600px;
+    
+}
+
+
+#nav{
+    background-color: #b0cfff;
+    display: block;
+    float: left;
+    width: 20%;
+
+}
+
+#content{
+    background-color: #5b7fbd;
+    display: block;
+    float: right; 
+    width: 50%;
+}
+
