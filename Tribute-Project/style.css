@@ -25,19 +25,21 @@
     .wide-the-way-box .story-box{
         width: 100%;
     }
+    }
 
     /* Side header */
+
+    @media (max-width: 1000px) {
     #friends-box .friends{
         border: 0;
     }
     #friends-box .side-header{
-        position: relative;
-        right: 1vw;
-        height: 20vh;
+        position: static;
+        transform-origin: 0 0%;
+        transform: rotate(0deg) translate(0%,0%);
     }
-
+    }
     
-}
 * {
     margin: 0;
     padding: 0;
@@ -238,7 +240,8 @@ header {
     transform: rotate(-90deg) translate(-50%,50%);
     position: relative;
     right: 3vw;
-    height: 30vh;
+    bottom: 35vh;
+    height: 5vh;
 }
 
 .box-name{
@@ -263,10 +266,10 @@ header {
 }
 
 .friend-image{
-    width: 25vw;
-    height: 25vw;
-    min-width: 250px;
-    min-height: 250px;
+    width: 20vw;
+    height: 20vw;
+    min-width: 200px;
+    min-height: 200px;
     border-radius: 50%;
 }
 
