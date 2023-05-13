@@ -3,7 +3,9 @@
 @media (max-width: 800px) {
     .the-way-map{
         display: none;
+        align-items: center;
     }
+
 
     #the-way .wide-the-way-box{
         display: flex;
@@ -15,7 +17,6 @@
         width: 100%;
         height: auto;
         top: 9vh;
-        
     }
 
 
@@ -113,6 +114,12 @@ header {
     right: 5vw;
 }
 
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* The way */
 #the-way{
     display: flex;
@@ -142,16 +149,16 @@ header {
     height: 90vh;
     text-align: center;
     justify-content: center;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-    /* border: 1px solid black; */
     transition: 0.3s;
-    /* border-radius: 5px;  */
-
+    background-color: white;
+    
     position: sticky;
     top: 8vh;
-    background-color: white;
-
     
+    
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* border: 1px solid black; */
+    /* border-radius: 5px;  */
 }
         /*map */
 .the-way-map{
@@ -168,6 +175,13 @@ header {
     height: 100%;
   }
 
+  .place-name{
+    font-size: 5vh;
+  }
+
+  .place-description{
+    font-size: 3vh;
+  }
     /* story-box */
 
 .story-box{
@@ -177,6 +191,7 @@ header {
     width: 40%;
     font-size: 2vh;
     transition: 0.3s;
+    align-items: center;
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;  */
 }
@@ -185,7 +200,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    text-align: center;
+    font-size: 3vh;
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
