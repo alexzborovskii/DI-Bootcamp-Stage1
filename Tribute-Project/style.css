@@ -172,6 +172,8 @@ header {
     height: 30vw;
     min-width: 350px;
     min-height: 350px;
+    max-width: 450px;
+    max-height: 450px;
     border-radius: 50%;
     overflow: hidden;
     margin: 50px auto 50px auto;
@@ -199,8 +201,7 @@ header {
     font-size: 2vh;
     transition: 0.3s;
     align-items: center;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;  */
+
 }
 
 .story-article{
@@ -210,7 +211,6 @@ header {
     text-align: center;
     font-size: 3vh;
     width: 90%;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     border-radius: 5px; 
     margin: 1vh 1vh 5vh 1vh;
 }
@@ -219,6 +219,11 @@ header {
     width: 100%;
     background-repeat: no-repeat;
     margin-bottom: 1vh;
+    transition: transform .5s; 
+}
+
+.story-image:hover{
+    transform: scale(1.2);
 }
 
 /* Friends */
