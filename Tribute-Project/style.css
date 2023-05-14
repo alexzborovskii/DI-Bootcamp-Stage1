@@ -25,6 +25,10 @@
     .wide-the-way-box .story-box{
         width: 100%;
     }
+
+    .pano-text .pano-header{
+        font-size: 8vw;
+    }
     }
 
     /* Side header */
