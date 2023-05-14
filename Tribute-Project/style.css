@@ -144,7 +144,7 @@ header {
 }
 
 .wide-the-way-box{
-    margin: 5vh;
+    margin: 3vh;
     display:  flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -210,16 +210,15 @@ header {
     text-align: center;
     font-size: 3vh;
     width: 90%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     border-radius: 5px; 
-    margin: 1vh;
+    margin: 1vh 1vh 5vh 1vh;
 }
 
 .story-image{
     width: 100%;
     background-repeat: no-repeat;
-    margin-bottom: 3vh;
+    margin-bottom: 1vh;
 }
 
 /* Friends */
@@ -260,6 +259,7 @@ header {
 .friend-card{
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     justify-content: space-between;
     margin: 3vh;
@@ -273,4 +273,19 @@ header {
     border-radius: 50%;
 }
 
+.friend-description{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
 
+.footer-box{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.copyright{
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 5vh;
+}
