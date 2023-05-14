@@ -18,7 +18,7 @@
     .wide-the-way-box .card{  
         width: 100%;
         height: auto;
-        top: 9vh;
+        top: 60px;
     }
 
 
@@ -99,11 +99,8 @@ header {
     color: #FF8846;
 }
 
-
-
-
 .pano-picture{
-    background-image: url("full-width-pano.jpg");
+    background-image: url("media/full-width-pano.jpg");
     height: 100vh; 
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +160,8 @@ header {
     transition: 0.3s;
     background-color: white;
     position: sticky;
-    top: 8vh;
+    top: 60px;
+    padding: 2px;
 }
         /*map */
 .the-way-map{
